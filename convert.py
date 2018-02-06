@@ -3,8 +3,8 @@ import cc_dat_utils
 #Part 1
 #Use cc_data_utils.make_cc_data_from_dat() to load pfgd_test.dat
 #print the resulting data
-
-
+myDat = cc_dat_utils.make_cc_data_from_dat("data/pfgd_test.dat")
+print(myDat)
 #Part 2
 input_json_file = "data/test_data.json"
 
